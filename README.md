@@ -10,7 +10,7 @@ The application allows users to create, manage, organize, summarize, and share n
 
 ## Frontend
 
-PASTE_YOUR_VERCEL_LINK
+https://ai-notes-app-kiyx.vercel.app/
 
 ## Backend
 
