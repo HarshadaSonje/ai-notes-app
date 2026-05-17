@@ -70,20 +70,20 @@ setSelectedTag] =
   // Autosave
   useEffect(() => {
 
-    if (!selectedNote)
-      return;
+  if (!selectedNote)
+    return;
 
-    const timer =
-      setTimeout(() => {
+  const timer =
+    setTimeout(() => {
 
       updateNote();
 
     }, 1500);
 
-    return () =>
-      clearTimeout(timer);
+  return () =>
+    clearTimeout(timer);
 
-  }, [title, content]);
+}, [title, content, selectedNote]);
 
   // Create Note
   const createNote = async () => {
